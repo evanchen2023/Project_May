@@ -3,11 +3,6 @@ const city = 'Auckland'
 const apiKey ="8ec66af874d74cd79c7235805240705";
 const apiUrl =`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
-/* const requestOptions = {
-    headers: {
-        'Authorization': 'Bearer ' + apiKey,
-    }
-} */
 
 function fetchInfo() {
     fetch(apiUrl)
